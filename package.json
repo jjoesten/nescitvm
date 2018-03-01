@@ -1,0 +1,22 @@
+{
+  "name": "nescitvm",
+  "version": "1.0.0",
+  "description": "BF wormhole tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jjoesten/nescitvm.git"
+  },
+  "author": "Joshua Joesten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjoesten/nescitvm/issues"
+  },
+  "homepage": "https://github.com/jjoesten/nescitvm#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
