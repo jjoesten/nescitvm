@@ -213,7 +213,7 @@ $(document).ready(function() {
         $("#register #user #spinner").show();
 
         $.ajax({
-            url: "register.php",
+            url: "public/register.php",
             type: "POST",
             data: $(this).serialize(),
             dataType: "JSON"
