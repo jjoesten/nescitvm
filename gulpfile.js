@@ -50,7 +50,7 @@ gulp.task('js', function(cb) {
                 message: "Finished javascript",
                 onLast: true
             })
-        ], db);
+        ], cb);
     }
 });
 
@@ -59,7 +59,7 @@ gulp.task('css', function(cb) {
         pump([
             gulp.src(cssFiles[c].src),
             sourcemaps.init(),
-            cleanscss(),
+            cleancss(),
             concat(cssFiles[c].name),
             rename(cssFiles[c].nameMin),
             sourcemaps.write('.'),
